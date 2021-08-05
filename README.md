@@ -42,4 +42,4 @@ Underneath the patrons list, the resort can also see the excursions that are ava
 
 ## Back-End
 
-Feel free to check out the back-end repo and current Lulu Luxury database <a href="https://github.com/LJ-000/luxury-lulu-app-backend">here</a>.
+Feel free to check out the back-end repo and current Lulu Luxury database <a href="https://github.com/LJ-000/lulu_luxury_backend">here</a>.

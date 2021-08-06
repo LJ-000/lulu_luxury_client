@@ -5,12 +5,13 @@
 #BC986A - light brown 
 #FBEEC1 - tan  */
 
+
 .resort-card {
   text-align: center;
   border: #659DBD solid 6px;
   padding: 5px;
   width: 500px;
-  height: 700px;
+  height: 500px;
   display: inline-grid;
   margin: 25px;
   box-shadow: 10px 10px #DAAD86, -10px -10px #8D8741;
@@ -18,8 +19,8 @@
 }
 
 .resort-images {
-  padding: 20px;
-  height: 250px;
+  padding: 10px;
+  height: 200px;
   width: auto;
   max-width: 450px;
 }
@@ -52,20 +53,60 @@
 .homepage {
   /* margin: 0; */
   padding: 2em; 
-  height: 130vh;
+  height: 150vh;
   width: 100vw;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
   background-image: url('https://media.cntraveler.com/photos/53dad07e6dec627b14a04855/master/w_1024,h_768,c_limit/four-seasons-bali-at-jimbaran-bay-bali-jimbaran-indonesia-108728-2.jpg')
 }
 
+
+.welcome {
+  font-family: Satisfy;
+  font-size: 75px;
+  margin-top: 20%;
+  margin-left: 8%; 
+}
+
+.homepage_buttons{
+  margin-top: 30px;
+  margin-left: 45%;
+}
+
 .Navbar {
-  font-display: #DAAD86;
+  background-color: #8D8741;
+  font-style: white;
+  width: 120%;
+  height: 45px;
   font-size: 25px;
-  margin-left: 15px;
-  margin-right: 15px
+  padding-left: 50px;
+  margin-left: -35px;
+  margin-top: -35px;
+}
+
+.resort_nav{
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.patron_nav{
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.home_nav{
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+
+}
+
+.plane_icon{
+  color: #DAAD86 
 }
 
 .homepage_text {
@@ -78,6 +119,11 @@
   margin:50px 0px; padding:0px;
   text-align:center;
   align-content:center;
+  background-color:#e9ccb3;
+  color:#8D8741;
+  font-size: 10px;
+
+
 }
 
 .becomeMember {
@@ -86,11 +132,6 @@
   font-size: 58px;
 }
 
-.paragraph {
-  font-size: 25px;
-  color:white;
-  font-family: Bebas Neue;
-}
 
 .login_info {
   font-family: Bebas Neue;
@@ -146,12 +187,4 @@ align-content:center;
   color: #8D8741;
 }
 
-.welcome {
-  font-family: Satisfy;
-  font-size: 50px;
-}
-
-.home_container {
-  align-content: center;
-}
 

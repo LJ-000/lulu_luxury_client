@@ -11,12 +11,10 @@ class Home extends Component {
     return(
       <div className="home_container">
 
-      <Link to='/login'>
-          <button>LOG IN</button>
-        </Link>
-
         <h1 className="welcome">🌴 🐧  Welcome to Lulu Luxury 🐧 🌴 </h1>
-
+        <Link className="homepage_buttons" to='/login'>
+          <button>Log In, Get Started</button>
+        </Link>
 
       </div>
     )

@@ -1,26 +1,15 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
+import FlightIcon from '@material-ui/icons/Flight'
 
 function Navbar() {
-    const [showLinks, setShowLinks] = useState(false)
         return (
             <>
            <div className ="Navbar">
                <div className ="leftSide">
-                   <div className = "links" id = {showLinks ? "hidden" : ""}>
-                   <a href="/Home"> Home </a>
-
-                   <Link to="/patron-login">
-                   <a href="/Patron-login"> Traveler Login </a>
-                   </Link> 
-
-                   <Link to="/resort-login">
-                   <a href="Resort-login">  Resort Login </a>
-                   </Link>
-
-                   </div>
-                   <button onClick={()=>setShowLinks(!showLinks)}>
-                   </button>
+                <a className="plane_icon"><FlightIcon/></a>
+                <a className="home_nav" href="/Home"> Home </a>
+                <a className="patron_nav" href="/Patron-login"> Traveler Login </a>
+                <a className="resort_nav"  href="Resort-login">  Resort Login </a>
                 </div>        
            </div>
                 

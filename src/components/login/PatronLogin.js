@@ -102,7 +102,6 @@ class PatronLogin extends Component {
 
           </form>
 
-          <h3 className="notMember"> Not a member? Register below</h3>
           <MemberForm addmember = {this.props.addmember}/>
         </div>
 

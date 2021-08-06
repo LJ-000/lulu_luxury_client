@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link, Router } from 'react-router-dom'
-import FlightIcon from '@material-ui/icons/Flight';
-
 import Home from './Home.js'
 import Navbar from './Navbar.js'
 import Login from './login/Login.js'
@@ -175,8 +173,7 @@ class MainContainer extends Component {
   render() {
     return (
       <div className="homepage_text">
-        <h1 className="rightSide">
-                < FlightIcon/></h1>
+       
         <Navbar/>
 
         <Switch>
